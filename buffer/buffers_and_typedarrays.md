@@ -39,7 +39,7 @@ const uint16arr = new Uint16Array(
   buf.byteOffset,
   buf.length / Uint16Array.BYTES_PER_ELEMENT);
 
-console.log(uint16array);
+console.log(uint16arr);
 
 // 打印: Uint16Array(5) [ 104, 101, 108, 108, 111 ]
 ```
